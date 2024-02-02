@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home-screen">
+        <h1 class="game-title">TIC TAC TOE</h1>
+        <h2 class="description">Play Tic Tac Toe with your friends or with Artificial Intelligence!</h2>
+        <h2 class="description2">Kindly choose one of the options below.</h2>
+        <button id="human">Play With Human</button>
+        <footer id="footer">
+            Made by: Jessee Daniel Catli, Mary Crissle Ruba, Richard Gabriel Amor, Micky Ileto, and Maine Cedric Tabirao
+        </footer>
+        <div class="dropdown">
+            <button class="dropbtn">Play With AI</button>
+            <div class="dropdown-content">
+                <a href="#" id="easy">Easy</a>
+                <a href="#" id="difficult">Difficult</a>
+                <a href="#" id="expert">Expert</a>
+            </div>
+        </div>
+    </div>
+    <div id="game-screen" style="display: none;">
+        <div class="turn-container">
+            <h3>PLAYER TURN</h3>
+            <div class="turn-box align" style="color: white;">X</div>
+            <div class="turn-box align" style="color: white;">O</div>
+            <div class="bg"></div>
+        </div>
+        <div id="score-board">
+            <div id="player-x-score" class="score">X: 0</div>
+            <div id="player-o-score" class="score">O: 0</div>
+        </div>
+        <div class="main-grid">
+            <div class="box align">1</div>
+            <div class="box align">2</div>
+            <div class="box align">3</div>
+            <div class="box align">4</div>
+            <div class="box align">5</div>
+            <div class="box align">6</div>
+            <div class="box align">7</div>
+            <div class="box align">8</div>
+            <div class="box align">9</div>
+            <div class="box align">10</div>
+            <div class="box align">12</div>
+            <div class="box align">13</div>
+            <div class="box align">14</div>
+            <div class="box align">15</div>
+            <div class="box align">16</div>
+            <div class="box align">17</div>
+            <div class="box align">18</div>
+            <div class="box align">19</div>
+            <div class="box align">20</div>
+            <div class="box align">21</div>
+            <div class="box align">22</div>
+            <div class="box align">23</div>
+            <div class="box align">24</div>
+            <div class="box align">25</div>
+            <div class="box align">26</div>
+            <div class="box align">27</div>
+            <div class="box align">28</div>
+            <div class="box align">29</div>
+            <div class="box align">30</div>
+            <div class="box align">31</div>
+        </div>
+    
+    </div>
+    <h2 id="results"></h2>
+    <button id="play-again">Play Again</button>
+    <button id="next-round">Next Round</button>
+    <script src="script.js"></script>
+</body>
+</html>
